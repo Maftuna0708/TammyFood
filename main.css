@@ -1,8 +1,22 @@
-ul{
+.menu-list{
     list-style: none;
     display: flex;
-    gap: 65px;
-    padding-top: 10px;
+}
+
+.menu-list li{
+    margin: 25px 50px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-list li:hover{
+    color: #FCC647;
+    transition: 300ms;
+    border-bottom: 3px solid #FCC647;
+}
+
+.loggo{
+    font-size: 32px;
 }
 
 *{
@@ -14,18 +28,11 @@ ul{
 
 .header{
     display: flex;
-    justify-content: space-around;
-    margin: 0 0 10px 10px;
-    width: 2022px;
-    height: 785px;
+    justify-content: space-between;
+    padding: 15px 0px;
     align-items: center;
-    padding-bottom: 700px;
 }
 
-.navbar .container{
-    background-color: #FFFBF3;
-
-}
 
 .span{
     background-color: #FFF2D4;
@@ -33,36 +40,80 @@ ul{
     padding: 8px 8px 8px 8px;
 }
 
-.more button{
-    padding: 10px 10px;
-    background-color: #FCC647;
+.buttons{
+    display: flex;
+    margin-top: 30px;
+    width: 48%;
+    justify-content: space-between;
 }
+
+.btn{
+    padding: 10px 20px;
+    background-color: #FCC647;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px #F9D58040;
+}
+
+.btn-outline{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-outline img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 40px #F9D58040;
+}
+
 .logo span{
     color: #FCC647;
 }
 
-.imgg{
-    background-color: white;
-}
 
-.vd{
+.m{
     display: flex;
-}
-
-.tex{
-    padding-top: 12px;
-}
-
-.more{
-    display: flex;
-}
-
-.m .container{
-    display: flex;
-    margin-bottom: 1000px;
 }
 
 span{
     color: #FCC647;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #FFFBF3;
+    padding-bottom: 100px;
+}
+
+.m-text, .m-img{
+    width: 50%;
+}
+
+.m-text{
+    padding-top: 100px;
+}
+
+.hashtag{
+    background-color: #FFF2D4;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.m-text h1{
+    font-size: 48px;
+    margin: 20px 0px 35px 0px;
+}
+
+.m-text p{
+    color: #667085;
+    font-size: 16px;
+    line-height: 32px;
+}
