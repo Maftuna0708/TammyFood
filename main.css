@@ -207,3 +207,137 @@ p{
 .icons{
     display: flex;
 }
+
+.our-delicious-dish h1{
+    color: #3C3C3C;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.our-delicious-dish> p{
+    width: 38%;
+    margin-left: 370px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dolor-img-one{
+    font-size: 6px;
+    margin-left: 113px;
+    width: 12%;
+    height: 29px;
+    border-radius: 4px;
+    padding: 0px 9px 0px 7px;
+    background-color: #F24D21
+}
+
+.dolor-img-second{
+    background-color: #3C3C3C;
+    font-size: 6px;
+    margin-left: 10px;
+    width: 12%;
+    height: 29px;
+    border-radius: 4px;
+    padding: 0px 9px 0px 7px;
+}
+
+.card-one{
+    width: 273px;
+    height: 325px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    border: 1px solid #70707033;
+}
+
+.card-one h6{
+    color: #3C3C3C;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 20px;  
+}
+
+.card-one> img{
+    margin-left: 55px;
+    margin-top: 13px;
+}
+
+.stars{
+    margin-left: 20px;
+}
+
+.stars i{
+    font-size: 12px;
+    color: #F9A755;
+}
+
+.card-one p{
+    padding-left: 20px;
+    font-size: 12px;
+    width: 90%;
+}
+
+.dolor{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.dolor h6{
+    font-size: 16PX;
+}
+
+.cards{
+    display: flex;
+    gap: 22px;
+    margin-top: 75px;
+}
+
+.cards-second{
+    display: flex;
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.number{
+    padding: 5px 14px;
+    border-radius: 100%;
+    border: 1px solid #EAECED;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    list-style: 20px;
+    color: #667085;
+}
+
+.arrow{
+    color: #FEB918;
+    padding: 9px 11px;
+    border-radius: 100%;
+    font-size: 15px;
+    border: 1px solid #EAECED;
+    background-color: #FFFFFF;
+}
+
+.buttons button:hover{
+    background-color: #FEB918;
+    transition: 300ms;
+}
+
+.buttons{
+    margin-top: 77px;
+    margin-left: 320px;
+}
+
+.cards .card-one:hover{
+    transition: 300ms;
+    border: 1px solid #F9A755;
+    box-shadow: 0px 15px 35px #C6C6C6;
+}
+
+.cards-second .card-one:hover{
+    transition: 300ms;
+    border: 1px solid #F9A755;
+    box-shadow: 0px 15px 35px #C6C6C6;
+}
