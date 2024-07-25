@@ -45,6 +45,7 @@
     margin-top: 30px;
     width: 48%;
     justify-content: space-between;
+   
 }
 
 .btn{
@@ -438,4 +439,113 @@ p{
 
 .download{
     margin-top: 140px;
+}
+
+footer{
+    background-color: #232233;
+}
+
+.tammy{
+    color: #EAECED;
+}
+
+.tammyfood{
+    width: 26%;
+}
+
+
+.footer-one-p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-one li{
+    list-style: none;
+}
+
+
+
+.ul{
+    display: flex;
+    margin-top: 15px;
+}
+
+.ul li{
+    border-left: 1px solid white;
+    padding: 0px 24px;
+}
+
+.ul li:nth-child(1){
+    border: none;
+}
+
+footer .container{
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick-link{
+    width: 26%;
+}
+
+.quick-link-ul{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.quick-link-ul h3{
+    font-size: 25px;
+    list-style: 37px;
+}
+
+.quick-link-ul li{
+    margin-top: 13px;
+}
+
+.news-letter-li h3{
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.news-letter-li-second{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.news-letter-li-thirty img{
+    background-color: #FEB918;
+}
+
+.news-letter{
+    width: 26%;
+}
+
+.news-letter-ul{
+    list-style: none;
+}
+
+.news-letter-li-thirty{
+    margin-top: 30px;
+}
+
+.finish{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 400px;
+    padding-bottom: 40px;
+}
+
+.finish-div{
+    border-top: 1px solid #FFFFFF;
+    width: 80%;
+    margin: 0 auto; 
 }
