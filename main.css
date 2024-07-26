@@ -45,7 +45,6 @@
     margin-top: 30px;
     width: 48%;
     justify-content: space-between;
-   
 }
 
 .btn{
@@ -247,7 +246,6 @@ p{
 
 .card-one{
     width: 273px;
-    height: 325px;
     border-radius: 11px;
     border: 1px solid transparent;
     border: 1px solid #70707033;
@@ -548,4 +546,58 @@ footer .container{
     border-top: 1px solid #FFFFFF;
     width: 80%;
     margin: 0 auto; 
+}
+
+.mail img{
+    background-color: #FEB918;
+    padding: 26px 23px;
+    border-radius: 100%;
+}
+
+.mail span{
+    font-size: 28px;
+    line-height: 38px;
+    color: #232233;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.call img{
+    background-color: #FEB918;
+    padding: 24px 23px;
+    border-radius: 100%;
+}
+
+.call span{
+    font-size: 28px;
+    line-height: 38px;
+    color: #232233;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.info .container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px #0000003D;
+    border-radius: 30px;
+    padding: 65px 100px;
+}
+
+.info{
+    background-image: linear-gradient(to top, #232233 0 50%, white 50% 100%);
+    margin-top: 156px;
+}
+
+.line{
+    width: 2px;
+    height: 100px;
+    background-color: #E6E6E6;
+}
+
+.email-btn{
+    background-color: #FEB918;
+    padding: 11px 14px;
+    border: none;
 }
