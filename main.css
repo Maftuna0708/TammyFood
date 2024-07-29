@@ -1,7 +1,37 @@
 .menu-list{
     list-style: none;
     display: flex;
+    margin-left: 310px;
+    padding: 0;
+    transition: 0.3s;
 }
+
+a {
+    text-decoration: none;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    
+  }
+
+  .burger-menu i{
+    background-color: #FCC647;
+    color: white;
+    padding: 9px;
+    border-radius: 4px;
+  }
+
+  #check {
+    display: none;
+  }
+
+  #check:checked~ .menu-list{
+    transform: translate(0);
+  }
 
 .menu-list li{
     margin: 25px 50px;
@@ -15,6 +45,7 @@
     border-bottom: 3px solid #FCC647;
 }
 
+
 .loggo{
     font-size: 32px;
 }
@@ -26,11 +57,13 @@
     font-family: "Inter", sans-serif;
 }
 
-.header{
+.navbar .header{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 15px 0px;
+   justify-content: space-between;
+    
     align-items: center;
+    
 }
 
 
@@ -40,6 +73,13 @@
     padding: 8px 8px 8px 8px;
 }
 
+.button{
+    display: flex;
+    margin-top: 30px;
+    width: 48%;
+    justify-content: space-between;
+}
+
 .buttons{
     display: flex;
     margin-top: 30px;
@@ -47,7 +87,7 @@
     justify-content: space-between;
 }
 
-.btn{
+.button .btn{
     padding: 10px 20px;
     background-color: #FCC647;
     border: none;
