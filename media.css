@@ -44,6 +44,14 @@
  .call span{
   font-size: 25px;
  }
+
+ .m-text{
+  width: 100%;
+ }
+
+ .m-img{
+  display: none;
+ }
 }
 
 

@@ -1,10 +1,10 @@
 .menu-list{
     list-style: none;
     display: flex;
-    margin-left: 310px;
     padding: 0;
     transition: 0.3s;
 }
+
 
 a {
     text-decoration: none;
@@ -17,7 +17,11 @@ a {
     padding: 40px 0;
     
   }
+  
+  .burger-menu{
+    display: none;
 
+  }
   .burger-menu i{
     background-color: #FCC647;
     color: white;
